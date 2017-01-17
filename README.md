@@ -14,7 +14,8 @@
         nano /etc/phpmyadmin/config.inc.php 
         $cfg['ExecTimeLimit'] = xtime;
 
-3) Enable mod rewrite from terminal 
+3) Enable mod rewrite from terminal
+
         a2enmod rewrite
 
 4) add this into /etc/apache2/sites-enabled/000-default.conf root# nano /etc/apache2/sites-enabled/000-default.conf
