@@ -18,7 +18,9 @@
 
         a2enmod rewrite
 
-4) add this into /etc/apache2/sites-enabled/000-default.conf root# nano /etc/apache2/sites-enabled/000-default.conf
+4) add this
+    
+        nano /etc/apache2/sites-enabled/000-default.conf
 
     <Directory /var/www/html>
             Options Indexes FollowSymLinks MultiViews
