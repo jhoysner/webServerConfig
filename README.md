@@ -32,3 +32,7 @@
 5) Restart apache server
 
     service apache2 restart
+
+6) Include phpmyadmin in apache forlder
+
+    Include /etc/phpmyadmin/apache.conf
