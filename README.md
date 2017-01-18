@@ -34,5 +34,7 @@
     service apache2 restart
 
 6) Include phpmyadmin in apache forlder
-    nano /etc/apache2/apache2.conf
-    Include /etc/phpmyadmin/apache.conf
+
+        nano /etc/apache2/apache2.conf
+    
+        Include /etc/phpmyadmin/apache.conf
