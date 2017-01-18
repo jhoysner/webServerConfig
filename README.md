@@ -29,4 +29,6 @@
             allow from all
     </Directory>
 
+5) Restart apache server
 
+    service apache2 restart
