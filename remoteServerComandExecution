@@ -1,0 +1,16 @@
+  #!/bin/bash
+  clear
+  echo "Conectando via ssh y ejecutando un escript en el servidor remoto"
+  ssh solodiez@192.168.0.50 "./databaseExport.sh"
+  #Conectando via ftp y descargando un archivo al servidor local desde el servidor remoto
+  ftp -inv 192.168.0.50<<FINFTP
+         user yourFTPLogin YourFTPPassword
+         binary
+         lcd /home/solodiez
+         cd /home/solodiez
+         mget solodiez.sql
+         bye
+  FINFTP
+  echo "Download successfuly"
+  echo "#########################"
+  ls
